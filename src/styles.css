@@ -1,0 +1,10 @@
+:root {
+  --background-color: (#202020),
+--text-color: (#fffff),
+}
+
+body{
+background: url(images/bg.png);
+
+}
+
