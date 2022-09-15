@@ -73,7 +73,6 @@ h1 {
   max-width: fit-content;
 }  */
 .container {
-  flex-shrink: 1 1;
   padding: 20px 0px;
   justify-content: space-between;
 }
