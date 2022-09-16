@@ -66,6 +66,14 @@ h1 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+/* .content-wrapper {
+  padding: 0 140px;
+} */
+
+.container {
+  padding: 20px 0px;
+  justify-content: space-between;
+}
 
 @media (max-width: 500px) {
   .hero {
@@ -81,6 +89,13 @@ h1 {
   h3 {
     font-size: 15px;
     padding-top: 50px;
+  }
+  .container {
+    flex-direction: column;
+    max-width: 70%;
+  }
+  .item {
+    padding-top: 3px;
   }
   .hero p {
     padding: 10px 120px;
