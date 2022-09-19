@@ -45,7 +45,7 @@ h1 {
 }
 .about-h1 {
   font-family: var(--main-text);
-  font-size: 64px;
+  font-size: 58px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
@@ -59,12 +59,30 @@ h4 {
 }
 p {
   color: var(--text-color);
+  font-size: 18px;
+  font-family: var(--main-text);
+}
+.icon {
+  color: var(--text-color);
+  justify-content: space-between;
+  max-width: 100px;
+  margin: 50px 0px 70px 0px;
 }
 .camera-content p {
   background-color: #2d2727;
-  padding: 10px;
+  padding: 20px 15px;
   font-size: 18px;
   font-family: var(--main-text);
+  max-width: 400px;
+}
+.about-content {
+  padding: 150px 35px 0px 0px;
+}
+.img {
+  padding-top: 100px;
+  width: 600px;
+  height: 850px;
+  object-fit: cover;
 }
 
 .hero p {
@@ -91,13 +109,12 @@ p {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.about-content {
-  padding-top: 10px;
-}
-
 .content {
   padding: 20px 0px;
   justify-content: space-between;
+}
+.about-section-content {
+  padding: 100px 0px 50px 0px;
 }
 
 @media (max-width: 800px) {
