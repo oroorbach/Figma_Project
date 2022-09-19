@@ -114,7 +114,7 @@ p {
   padding: 20px 0px;
   justify-content: space-between;
 }
-.about-section-content {
+.about-section-img {
   padding: 100px 0px 50px 0px;
 }
 .gallery-content {
@@ -148,8 +148,25 @@ p {
     font-size: 13px;
     line-height: 10px;
   }
-  #start-button {
+  .start-button {
     font-size: 10px;
-    padding: 15px 20px;
+    padding: 13px 18px;
+  }
+  .img {
+    padding-top: 0px;
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .about-content {
+    text-align: center;
+    padding: 40px 0px;
+  }
+  .camera-content p {
+    max-width: 100%;
+  }
+  .icon {
+    justify-content: center;
+    max-width: 100%;
   }
 }
