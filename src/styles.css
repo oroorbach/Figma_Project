@@ -51,6 +51,10 @@ h1 {
   text-transform: uppercase;
   line-height: 1.2;
 }
+.heading {
+  text-align: center;
+  margin-top: 40px;
+}
 h4 {
   font-family: var(--main-text);
   font-size: 18px;
@@ -120,6 +124,13 @@ p {
 .gallery-content {
   padding-top: 100px;
 }
+.contact-content {
+  text-align: center;
+  margin-top: 150px;
+}
+.icon-contact {
+  padding-right: 15px;
+}
 
 @media (max-width: 800px) {
   .hero {
@@ -139,6 +150,7 @@ p {
 
   .content {
     flex-direction: column;
+    padding: 0px;
   }
   .item {
     padding-top: 3px;
