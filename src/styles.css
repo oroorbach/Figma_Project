@@ -8,6 +8,32 @@
 body {
   background-color: var(--background-color);
 }
+.background {
+  background-color: #202020;
+}
+.logo {
+  max-height: 20px;
+  line-height: 1px;
+}
+header ul {
+  margin-bottom: 0px;
+}
+header {
+  padding: 30px;
+}
+header li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+header a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+header a:hover {
+  color: var(--about-color);
+  transition: all 100ms ease-in-out;
+}
 
 /* font-family: "Montserrat", sans-serif;
 font-family: "Roboto", sans-serif;
@@ -84,7 +110,6 @@ p {
   padding: 150px 35px 0px 0px;
 }
 .img {
-  padding-top: 100px;
   width: 600px;
   height: 850px;
   object-fit: cover;
