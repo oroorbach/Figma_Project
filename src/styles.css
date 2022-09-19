@@ -42,6 +42,7 @@ h1 {
   line-height: 84px;
   font-weight: 700;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 .about-h1 {
   font-family: var(--main-text);
@@ -115,6 +116,9 @@ p {
 }
 .about-section-content {
   padding: 100px 0px 50px 0px;
+}
+.gallery-content {
+  padding-top: 100px;
 }
 
 @media (max-width: 800px) {
