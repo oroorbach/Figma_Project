@@ -13,7 +13,6 @@ body {
 }
 .logo {
   max-height: 20px;
-  line-height: 1px;
 }
 header ul {
   margin-bottom: 0px;
@@ -158,6 +157,16 @@ p {
 }
 
 @media (max-width: 800px) {
+  header {
+    padding: 15px;
+    justify-content: space-evenly;
+  }
+  .header a {
+    font-size: 9px;
+  }
+  header ul {
+    padding: 0px;
+  }
   .hero {
     margin-bottom: 5px;
     height: 300px;
