@@ -14,6 +14,9 @@ body {
 .logo {
   max-height: 20px;
 }
+.logo :hover {
+  cursor: pointer;
+}
 header ul {
   margin-bottom: 0px;
 }
@@ -26,6 +29,9 @@ header li {
   display: inline;
   list-style: none;
   margin-left: 20px;
+}
+.active {
+  color: var(--about-color);
 }
 header a {
   text-decoration: none;
