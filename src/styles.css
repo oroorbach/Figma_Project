@@ -59,7 +59,7 @@ h3 {
   color: var(--text-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.1em;
@@ -119,7 +119,7 @@ p {
 .about-content {
   padding: 150px 35px 0px 0px;
 }
-.img {
+.img-about {
   width: 600px;
   height: 850px;
   object-fit: cover;
@@ -152,7 +152,6 @@ p {
 .start-button:hover {
   color: var(--about-color);
 }
-
 .content {
   padding: 20px 0px;
   justify-content: space-between;
@@ -178,6 +177,10 @@ footer {
   padding: 0 10px;
   font-size: 20px;
 }
+.footer-icon a {
+  text-decoration: none;
+  color: none;
+}
 i:hover {
   cursor: pointer;
 }
@@ -185,7 +188,7 @@ footer .copywrite {
   font-size: 15px;
   margin: 0px;
 }
-@media (max-width: 800px) {
+@media (max-width: 576px) {
   header {
     padding: 13px;
     justify-content: space-evenly;
@@ -196,10 +199,12 @@ footer .copywrite {
   header ul {
     padding: 0px;
   }
+  .li-home {
+    margin-left: 0px;
+  }
   .hero {
     margin-bottom: 5px;
     height: 300px;
-    padding: 0 auto;
   }
   h1 {
     font-size: 40px;
@@ -210,10 +215,9 @@ footer .copywrite {
     font-size: 20px;
     padding-top: 50px;
   }
-
   .content {
     flex-direction: column;
-    padding: 0px;
+    padding: 0px 10px;
   }
   .item {
     padding-top: 3px;
@@ -227,18 +231,18 @@ footer .copywrite {
     font-size: 10px;
     padding: 13px 18px;
   }
-  .img {
+  .img-about {
     padding-top: 0px;
-    width: 400px;
     height: 450px;
     object-fit: cover;
   }
   .about-content {
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 5px;
   }
   .camera-content p {
     max-width: 100%;
+    padding: 20px 10px;
   }
   .icon i {
     margin: 0 10px;
